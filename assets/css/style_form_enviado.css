@@ -1,0 +1,145 @@
+*{ padding: 0;  margin: 0;}
+a{text-decoration: none !important;}
+
+.blanco { color: #ffffff;}
+.gr { color: #09fa6a; font-weight: 700;}
+p { color: #ffffff; }
+.red { color: #ef0a02; }
+.negro {  color: #000; }
+
+body {
+	
+	background: linear-gradient(to bottom, rgba(2, 32, 14, 0.863), rgba(2, 32, 14, 0.863)), url('../img/fondos/fondo3.png'); /*Imagen de fondo*/
+	background-size: cover; /* La imagen de fondo cubrirá toda la pantalla */
+	background-position: center; /* Centra la imagen de fondo */
+	background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
+
+	min-height: 100vh;
+	height: 100%;
+}
+
+
+
+.iconNav { text-align: right; top: 5%; right: 5%; font-size: 0.8rem; color: #ffffff;}
+.logo img {  width: 265px; }
+
+/*************Texto y formulario***************/
+
+.texto p { font-size: 0.8rem;}
+.texto h3 {  font-size: 2.7rem;}
+.texto h4 {  font-size: 1.7rem;}
+.form { top: 20%; }
+.form label { font-size: 1.7rem; color: #ffffff; }
+.enviar { background: #00fe67; width: 100%;  color: #000; border: none;  border-radius: 15px; }
+.enviar:hover { cursor: pointer; border: 4px solid #00fe67; background: none; color: white; }
+
+/******** footer *******/
+/*Contactos*/
+
+.contactos h5 { color: #c3c390;}
+.contactos span { font-size: 0.8rem;}
+.contactos img { width: 40px;}
+
+/*hubicación*/
+
+.hubi h5 { color: #c3c390; }
+.hubi .leanding-mapa { width: 250px !important; height: 100% !important;  border-radius: 7px; }
+
+/*bono*/
+
+/* .bono {  margin-top: 50px;  margin-left: 50px; padding-top: 0px; padding-left: 20px; height: 200px; } */
+.bono img{  width: 100%; }
+
+/*whatsapp-imagen*/
+
+
+.vyc img{ width: 105px;}
+.wh img { width: 50px; }
+
+
+
+/* extra*/
+.subir-img{ position: relative; top: -35px;}
+.hover-color:hover{    cursor: pointer; color: #c3c390;}
+
+/* ::::::::::::::::::::::::::::::: RESPLANDOR PARPADEANTE ::::::::::::::::: */
+.resplandor {
+	/* width: 200px;  height: 200px;  background-color: #ffffff; Color de fondo */
+	height: 105px;
+	border-radius: 50%; /* Para hacer un círculo */
+	box-shadow: 0 0 50px 10px #53cc08; /* Sombra que se animará */
+	animation: parpadeo 1.5s infinite alternate; /* Animación */
+	transition: box-shadow 1.5s ease-in-out; /* Transición suave de la sombra */
+}
+
+@keyframes parpadeo {
+	0% {  box-shadow: 0 0 0px 0px #02a152; }/* Sombra inicial */
+	100% { box-shadow: 0 0 50px 15px #00fe67; } /* Sombra final */
+}
+
+/*  ══════════════════════════════════════════ - @ M E D I A  - M I N - ══════════════════════════════════════════ */
+/* min-width = como minimo ─|──────── */
+@media (min-width: 576px) {
+	.espacio-laterial{	margin-right: 3rem!important;	margin-left: 3rem!important;	}   
+  
+}
+  
+/* min-width = como minimo ─|──────── */
+@media (min-width: 768px) {
+	
+}
+
+/* min-width = como minimo ─|──────── */
+@media (min-width: 992px) {
+	/* .height-fondo-img{ min-height: 100vh; max-height: 100vh; }
+	.height-fondo-bg{ height: 100vh; max-height: 100vh;} */
+}
+
+/* min-width = como minimo ─|──────── */
+@media (min-width: 1080px) {
+
+}
+
+/* min-width = como minimo ─|──────── */
+@media (min-width: 1200px) {
+
+}
+
+/*  ══════════════════════════════════════════ - @ M E D I A  - M A X - ══════════════════════════════════════════ */
+
+/* max-width = como maximo ────────|─ */
+@media (max-width: 575.98px) {
+.espacio-laterial{  margin-right: 0px!important;  margin-left: 0px!important;}
+
+}
+
+/* max-width = como maximo ────────| */
+@media (max-width: 576px) {
+
+}
+/* max-width = como maximo ────────| */
+@media (max-width: 767.98px) {
+	
+}
+
+/* max-width = como maximo ────────| */
+@media (max-width: 991.98px) {
+	/* .height-fondo-img{ min-height: 100%; }
+	.height-fondo-bg{ height: 100%; } */
+
+}
+
+/* max-width = como maximo ────────| */
+@media (max-width: 1080px) {
+
+}
+
+/* max-width = como maximo  ────────| */
+@media (max-width: 1199.98px) {
+
+}
+
+/* max-width = como maximo  ────────| */
+@media (max-width: 1200px) {
+
+}
