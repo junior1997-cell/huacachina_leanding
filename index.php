@@ -14,6 +14,8 @@
 	<link rel="stylesheet" href="plugins/bootstrap-5.0.2-dist/css/bootstrap.min.css">
 	<!-- Font Awesome 6.2 -->
 	<link rel="stylesheet" href="plugins/fontawesome-free-6.2.0/css/all.min.css" />
+	<!-- Toastr -->
+	<link rel="stylesheet" href="plugins/toastr/toastr.min.css">
 	<!-- New diseño -->
 	<link rel="stylesheet" href="assets/css/style_form.css">
 	
@@ -73,12 +75,15 @@
 												<label for="telefono" class="form-label">Número de teléfono<span	class="red">*</span></label>
 												<input type="tel" class="form-control" id="telefono" name="telefono">
 											</div>
-										</div>
-										<div class="col-lg-12">
-											<button type="submit" class="enviar" id="guardar_registro_correo">Enviar</button>
-										</div>
+										</div>										
 									</div>
+									<button type="submit" style="display: none;" id="submit-form-correo">Submit</button>
 								</form>
+							</div>
+							<div class="row">
+								<div class="col-lg-12">
+									<button type="button" class="enviar" id="guardar_registro_correo">Enviar</button>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -139,12 +144,12 @@
 					
 					<div class="row align-middle">
 						<div class="mt-5 col-6 col-sm-6 col-md-12 col-lg-12 col-xl-12 text-sm-center text-lg-end wh">
-							<a href="">
+							<a href="" class="landing-whatsapp" target="_blank">
 								<img class="resplandor" src="assets/img/icons/Whatsapp icono GR-12.svg" alt="">
 							</a>
 						</div>
 						<div class="mt-5 col-6 col-sm-6 col-md-12 col-lg-12 col-xl-12 text-sm-center text-lg-end vyc">
-							<a href="">
+							<a href="https://jmsinmobiliaria.pe/"  target="_blank">
 								<img src="assets/img/icons/Logo Vyc Inmobiliaria-06.svg" alt="">
 							</a>
 						</div>
@@ -165,18 +170,26 @@
 	<script src="plugins/jquery-validation/additional-methods.min.js"></script>
 	<script src="plugins/jquery-validation/localization/messages_es_PE.js"></script>
 	<!-- bootstrap 5.0.2 -->
-	<script src="plugins/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+	<script src="plugins/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>	
+	<!-- sweetalert2 -->
+	<script src="plugins/sweetalert2/sweetalert2.all.min.js"></script>
+	<!-- Toastr -->
+	<script src="plugins/toastr/toastr.min.js"></script>
+	<!-- Api Mapa -->
+	<script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJZ5VXawUSvX2v-QuV_JwQb6_j-EP7oyk&callback=initMap">	</script>
+
+	<!-- Funciones Crud -->
+	<script type="text/javascript" src="assets/js/funcion_crud.js"></script>
+	<!-- Funciones Generales -->
+	<script type="text/javascript" src="assets/js/funcion_general.js"></script>
+
 	<!-- js -->
 	<script src="scripts/landing_disenio.js"></script>
-	<script async
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJZ5VXawUSvX2v-QuV_JwQb6_j-EP7oyk&callback=initMap">
+
+	<script>  
+		function initMap() {console.log('mapa cargado');}
 	</script>
-	<script>
-  
-	function initMap() {
-		console.log('mapa cargado');
-	}
-</script>
+
 </body>
 
 </html>

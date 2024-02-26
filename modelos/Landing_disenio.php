@@ -29,5 +29,11 @@ class Landing_disenio
     ];
     return $results;
 	}
+
+  public function crear_correo($nombres_apellidos, $telefono){
+		$sql="INSERT INTO landing_correo( nombres, celular) VALUES ('$nombres_apellidos', '$telefono')";
+		return ejecutarConsulta($sql); 
+
+	}
   
 }

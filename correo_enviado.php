@@ -25,7 +25,7 @@
 		<div class="container-fluid ">
 			<div class="row espacio-laterial">
 				<!-- :::::::::::::::::::::: SIGUENOS :::::::::::::::::: -->
-				<div class="col-md-12 col-lg-12 col-xl-12">
+				<div class="col-md-12 col-lg-12 col-xl-12 mt-4">
 					<div class="iconNav">
 						<span>Siguenos en:</span>
 						<div class="">
@@ -36,14 +36,14 @@
 				</div>
 
 				<!-- :::::::::::::::::::::: TITULO :::::::::::::::::: -->
-        <div class="col-lg-12 mt-5">
+        <div class="col-lg-12 mt-3">
           <div class="texto text-center">            
             <h3 class="gr landing-titulo text-uppercase"><i class="fa-solid fa-circle-notch fa-spin-pulse fa-lg text-white"></i></h3>           
           </div>
         </div>
 
-        <!-- :::::::::::::::::::::: TITULO :::::::::::::::::: -->
-        <div class="col-lg-12 mt-3">
+        <!-- :::::::::::::::::::::: DESCRIPCION :::::::::::::::::: -->
+        <div class="col-lg-12 mt-5">
           <div class="texto text-center mt-3">             
             <h4 class="blanco landing-descripcion text-uppercase"><i class="fa-solid fa-circle-notch fa-spin-pulse fa-lg text-white"></i></h4>
           </div>
@@ -51,29 +51,32 @@
 
 				<!-- :::::::::::::::::::::: ICONOS :::::::::::::::::: -->        
 
-        <div class="col-6 col-sm-6 col-md-12 col-lg-4 col-xl-4 mt-5 text-sm-center  vyc">
-          <div class="mt-5 p-5 text-lg-start text-xl-start">
-            <a href="">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-5 text-sm-center d-flex vyc">
+          <div class="mt-5 text-xl-start align-self-auto align-self-sm-center align-self-lg-end">
+            <a href="https://jmsinmobiliaria.pe/"  target="_blank">
               <img src="assets/img/icons/Logo Vyc Inmobiliaria-06.svg" alt="">
             </a>
           </div>          
         </div>
 
-        <div class="col-6 col-sm-6 col-md-12 col-lg-4 col-xl-4 mt-5 text-sm-center wh">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-5 text-sm-center wh">
           <div class="mt-5">
-            <div class="row text-lg-center">
-              <div class="col-lg-12 p-lg-5">
-                <a href="" class="btn enviar display-4 px-3 py-2">UNIRME AL GRUPO</a>
+            <div class="row text-center">
+              <div class="col-lg-12 pt-5 pb-3">
+                <a href="" target="_blank" class="btn btn-enviar  landing-grupo-whatsapp px-3 py-2 fw-bolder fs-5">UNIRME AL GRUPO</a>								
               </div>
-              <div class="col-lg-12 mt-3 ">
-                <a class="resplandor" href="">
-                  <img  src="assets/img/icons/Whatsapp icono GR-12.svg" alt="">
-                </a>
+              <div class="col-lg-12 d-flex justify-content-center">
+								<div class="resplandor">
+									<a class="landing-whatsapp"  href="" target="_blank">
+										<img  src="assets/img/icons/Whatsapp icono GR-12.svg" alt="">
+									</a>
+								</div>
+                
               </div>
             </div>             
           </div>          
         </div>
-        <div class="col-6 col-sm-6 col-md-12 col-lg-4 col-xl-4">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
 
         </div>
 				<!-- /.col-lg-6 -->
