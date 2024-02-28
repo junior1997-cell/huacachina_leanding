@@ -177,7 +177,7 @@
 							</a>
 						</div>
 						<div class="mt-5 col-6 col-sm-6 col-md-12 col-lg-12 col-xl-12 text-sm-center text-lg-end vyc">
-							<a href="https://jmsinmobiliaria.pe/" target="_blank">
+							<a href="https://www.huacachinadelnorte.pe/" target="_blank">
 								<img src="assets/img/icons/Logo Vyc Inmobiliaria-06.svg" alt="">
 							</a>
 						</div>

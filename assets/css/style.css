@@ -28,6 +28,7 @@ p {
     background-position: center;
     background-size: cover;
     background-image: url('../img/fondos/fondo3.png');
+    background-attachment: fixed;
 }
 .fond {
     background: rgba(2, 32, 14, 0.863);
