@@ -16,6 +16,34 @@
 	<link rel="stylesheet" href="plugins/fontawesome-free-6.2.0/css/all.min.css" />
 	<!-- New diseño -->
 	<link rel="stylesheet" href="assets/css/style_form_enviado.css">
+
+	<!-- Meta Pixel Code -->
+	<script>
+		! function(f, b, e, v, n, t, s) {
+			if (f.fbq) return;
+			n = f.fbq = function() {
+				n.callMethod ?
+					n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+			};
+			if (!f._fbq) f._fbq = n;
+			n.push = n;
+			n.loaded = !0;
+			n.version = '2.0';
+			n.queue = [];
+			t = b.createElement(e);
+			t.async = !0;
+			t.src = v;
+			s = b.getElementsByTagName(e)[0];
+			s.parentNode.insertBefore(t, s)
+		}(window, document, 'script',
+			'https://connect.facebook.net/en_US/fbevents.js');
+		fbq('init', '1255509375439962');
+		fbq('track', 'PageView');
+	</script>
+	<noscript>
+		<img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1255509375439962&ev=PageView&noscript=1" />
+	</noscript>
+	<!-- End Meta Pixel Code -->
 	
 </head>
 
@@ -95,15 +123,14 @@
 	<script src="plugins/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
 	<!-- js -->
 	<script src="scripts/landing_form_enviado.js"></script>
-	<script async
+	<!-- <script async
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJZ5VXawUSvX2v-QuV_JwQb6_j-EP7oyk&callback=initMap">
-	</script>
-	<script>
-  
-	function initMap() {
-		console.log('mapa cargado');
-	}
-</script>
+	</script> -->
+	<!-- <script>  
+		function initMap() {
+			console.log('mapa cargado');
+		}
+	</script> -->
 </body>
 
 </html>
