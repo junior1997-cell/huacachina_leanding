@@ -55,7 +55,7 @@
 				<!-- :::::::::::::::::::::: SIGUENOS :::::::::::::::::: -->
 				<div class="col-md-12 col-lg-12 col-xl-12 mt-4">
 					<div class="iconNav">
-						<span>Siguenos en:</span>
+						<span>Síguenos en:</span>
 						<div class="">
 							<a class="landing-facebook" href="#" target="_blank"><img	src="assets/img/icons/face.png" alt=""></a>
 							<a class="landing-instagram" href="#" target="_blank"><img src="assets/img/icons/instagram.png" alt=""></a>
@@ -81,7 +81,7 @@
 
         <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-5 text-sm-center d-flex vyc">
           <div class="mt-5 text-xl-start align-self-auto align-self-sm-center align-self-lg-end">
-            <a href="https://jmsinmobiliaria.pe/"  target="_blank">
+            <a href="https://www.huacachinadelnorte.pe/"  target="_blank">
               <img src="assets/img/icons/Logo Vyc Inmobiliaria-06.svg" alt="">
             </a>
           </div>          

@@ -28,7 +28,8 @@ function mostrar_detalle() {
       // ::::::::::::::::::::: CONTACTANOS :::::::::::::::::::::
       $('.landing-facebook').attr('href', `${e.data.empresa.rs_facebook}`);
       $('.landing-instagram').attr('href', `${e.data.empresa.rs_instagram}`);
-      $('.landing-whatsapp').attr('href', `https://api.whatsapp.com/send?phone=+51${e.data.empresa.celular}&text=*Hola buenos dias, vengo de tu pagina web!!*`);  
+      // $('.landing-whatsapp').attr('href', `https://api.whatsapp.com/send?phone=+51${e.data.empresa.celular}&text=*Hola buenos dias, vengo de tu pagina web!!*`);  
+      $('.landing-whatsapp').attr('href', `${e.data.empresa.link_grupo_whats}`);  
       $('.landing-grupo-whatsapp').attr('href', `${e.data.empresa.link_grupo_whats}`);  
       
     } else {

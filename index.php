@@ -37,10 +37,18 @@
 			t.src = v;
 			s = b.getElementsByTagName(e)[0];
 			s.parentNode.insertBefore(t, s)
-		}(window, document, 'script',
-			'https://connect.facebook.net/en_US/fbevents.js');
+		}(window, document, 'script',		'https://connect.facebook.net/en_US/fbevents.js');
 		fbq('init', '1255509375439962');
 		fbq('track', 'PageView');
+		window.addEventListener('error', function(e) {
+			if (e.target && e.target.src && e.target.src.includes('fbevents.js')) {
+				console.log('El script de Facebook Pixel no se cargó correctamente.');
+				console.log('Es posible que esté siendo bloqueado por un bloqueador de anuncios o complemento de seguridad en tu navegador.');
+				console.log('Por favor, desactiva los bloqueadores de anuncios o ajusta la configuración de privacidad del navegador.');
+				// Aquí podrías mostrar un mensaje al usuario con instrucciones sobre cómo solucionar el problema.
+				alert("Es posible que esté siendo bloqueado por un bloqueador de anuncio, nos gustaria que los desactive porfavor.");
+			}
+		}, true);
 	</script>
 	<noscript>
 		<img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1255509375439962&ev=PageView&noscript=1" />
@@ -57,7 +65,7 @@
 				<!-- :::::::::::::::::::::: SIGUENOS :::::::::::::::::: -->
 				<div class="col-md-12 col-lg-12 col-xl-12">
 					<div class="iconNav">
-						<span>Siguenos en:</span>
+						<span>Síguenos en:</span>
 						<div class="">
 							<a class="landing-facebook" href="#" target="_blank"><img src="assets/img/icons/face.png" alt=""></a>
 							<a class="landing-instagram" href="#" target="_blank"><img src="assets/img/icons/instagram.png" alt=""></a>
@@ -79,7 +87,7 @@
 								<!-- :::::::::::::::::::::: TITULO :::::::::::::::::: -->
 								<div class="col-lg-12 mt-1">
 									<div class="texto">
-										<h4 class="blanco">¡REGISTRATE HOY!</h4>
+										<h4 class="blanco">¡REGÍSTRATE HOY!</h4>
 										<h4 class="gr landing-titulo"><i class="fa-solid fa-circle-notch fa-spin-pulse fa-lg text-white"></i></h4>
 										<p class="blanco landing-descripcion"></p>
 									</div>
